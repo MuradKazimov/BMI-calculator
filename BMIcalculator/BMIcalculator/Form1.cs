@@ -24,7 +24,7 @@ namespace BMIcalculator
         private void button1_Click(object sender, EventArgs e)
         {
             w =Double.Parse(textBox1.Text);
-            h =Double.Parse(textBox2.Text);
+            h =Double.Parse(textBox2.Text)/100;
 
             x = w / (h * h);
 

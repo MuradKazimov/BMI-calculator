@@ -88,9 +88,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(26, 104);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 25);
+            this.label2.Size = new System.Drawing.Size(179, 25);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Enter Weight";
+            this.label2.Text = "Enter Weight (kg)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -100,9 +100,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(26, 162);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 25);
+            this.label3.Size = new System.Drawing.Size(179, 25);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Enter Height";
+            this.label3.Text = "Enter Height (sm)";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -118,24 +118,29 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(180, 104);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(203, 104);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(105, 25);
+            this.textBox1.Size = new System.Drawing.Size(82, 25);
             this.textBox1.TabIndex = 8;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(180, 162);
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(203, 162);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(105, 25);
+            this.textBox2.Size = new System.Drawing.Size(82, 25);
             this.textBox2.TabIndex = 9;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(93, 215);
             this.textBox3.Multiline = true;
